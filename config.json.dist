@@ -1,0 +1,17 @@
+{
+  "service": "http://something.that.spits.your.ip",
+  "server": {
+    "name": "server #1"
+  },
+  "mail": {
+    "user": "john@doe.com",
+    "pass": "d03"
+  },
+  "to": "John Doe <johndoe@does.com>",
+  "subject": "ip status",
+  "message": [
+    "each index of",
+    "this array is a different line. Also, <%= name %> and <%= ip %> should be",
+    "somewhere in this message, yeah, it could work better than that :-\"
+  ]
+}
