@@ -2,10 +2,8 @@
   "name": "watchdog",
   "version": "0.0.1",
   "description": "Cron job for ip checking in a stupid way.",
-  "main": "watchdog.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "repository": "https://github.com/rapzo/watchdog.git",
+  "main": "index.js",
   "author": "Rui Pedro Lima <ruipedro@12feettallstudio.com>",
   "license": "ISC",
   "dependencies": {
@@ -14,5 +12,8 @@
     "underscore": "^1.6.0",
     "winston": "^0.7.3",
     "log": "^1.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4"
   }
 }

@@ -1,7 +1,12 @@
 #!/usr/bin/env node
 
-var watchdog = require(require('path').join(__dirname, '/watchdog.js'));
+var fs = require('fs');
+var watchdog = require('../');
+var config = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 
 
-watchdog();
+//watchdog();
+//
+
+console.log(config, watchdog);
 
