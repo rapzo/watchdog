@@ -2,17 +2,22 @@
   "name": "watchdog",
   "version": "0.0.1",
   "description": "Cron job for ip checking in a stupid way.",
-  "main": "watchdog.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "repository": "https://github.com/rapzo/watchdog.git",
+  "main": "index.js",
   "author": "Rui Pedro Lima <ruipedro@12feettallstudio.com>",
   "license": "ISC",
   "dependencies": {
-    "sqlite3": "^2.2.3",
-    "nodemailer": "^0.7.0",
+    "bluebird": "^2.9.34",
+    "knex": "^0.8.6",
+    "public-ip": "*",
+    "sqlite3": "^3.0.10",
     "underscore": "^1.6.0",
-    "winston": "^0.7.3",
-    "log": "^1.4.0"
+    "winston": "^1.0.1",
+    "winston-mail": "^0.4.0"
+  },
+  "devDependencies": {
+    "istanbul": "^0.3.19",
+    "mocha": "^2.3.0",
+    "mocha-istanbul": "^0.2.0"
   }
 }

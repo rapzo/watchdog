@@ -1,7 +1,0 @@
-#!/usr/bin/env node
-
-var watchdog = require(require('path').join(__dirname, '/watchdog.js'));
-
-
-watchdog();
-
